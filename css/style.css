@@ -3,6 +3,7 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+/* HEADER */
 .header {
     display: flex;
     justify-content: space-between;
@@ -40,3 +41,27 @@ body {
 .navbar a:hover {
     color: white;
 }
+/* HEADER ENDS */
+
+.hero-img-container {
+    position: relative;
+}
+
+.hero-img-container img {
+    width: 100%;
+    height: auto;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
