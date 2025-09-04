@@ -89,7 +89,7 @@ body {
 .everyday-categories-container p {
     margin: 0 40px 10px 40px;
     font-size: 18px;
-    color: rgb(124, 116, 116)
+    color: rgb(0, 0, 0)
 }
 
 .category-images {
@@ -115,8 +115,27 @@ body {
 
 .category-labels span {
     font-size: 20px;
-    color: rgb(124, 116, 116);
+    color: rgb(0, 0, 0);
 }
 
+/* EVERYDAY CATEGORIES ENDS */
+
+.healthy-recipes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px;
+    background-color: rgb(171, 182, 192);
+    width : 100%;
+}
+.healthy-recipes-container h2 {
+    margin: 0 80px 10px 80px;
+    font-size: 30px;
+}
+
+.healthy-recipes-container p {
+    margin: 0 80px;
+    font-size: 18px;
+}
 
 
