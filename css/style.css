@@ -45,6 +45,7 @@ body {
 
 .hero-img-container {
     position: relative;
+    padding-top: 3px;
 }
 
 .hero-img-container img {
@@ -64,4 +65,42 @@ body {
     padding: 15px;
     border-radius: 5px;
 }
+/* HERO IMAGE ENDS */
+/* EVERYDAY CATEGORIES */
+
+.everyday-categories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px;
+    margin: 0 40px;
+}
+
+.everyday-categories-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.everyday-categories-container p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgb(124, 116, 116)
+}
+
+.category-images {
+    display: flex;
+    gap: 20px;
+}
+
+.category-images img {
+    flex: 1;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
 
