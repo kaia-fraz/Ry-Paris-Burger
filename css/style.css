@@ -75,49 +75,50 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width : 100%;
+    width: 100%;
     background-color: white;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+.everday-categories-inner {
+    max-width: 1200px;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .everyday-categories-container h2 {
-    font-size: 28px;
-    margin: 20px 40px 10px 40px;
-    font-size: 30px;
+    font-size: 45px;
+    margin: 50px 55px 0 55px;
 }
 
 .everyday-categories-container p {
-    margin: 0 40px 20px 40px;
-    font-size: 18px;
-    color: rgb(0, 0, 0)
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 55px;
 }
 
-.category-images {
+.labels-images {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.category-images img {
+.labels-images img {
     flex: 1;
-    width: 400px;
+    width: 350px;
+    height:350px;
     object-fit: cover;
     border-radius: 5px;
-}
-
-.category-labels {
+} 
+.labels-images span{
+    font-size: 25px;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    margin:  0 40px;
-}
-
-.category-labels span {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    justify-content: flex-start;
+    background-color: white;
+    padding: 10px 0;
     margin-bottom: 20px;
 }
-
 /* EVERYDAY CATEGORIES ENDS */
 /* HEALTHY RECIPES OF THE WEEK */
 .healthy-recipes-container {
