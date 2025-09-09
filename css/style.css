@@ -81,12 +81,12 @@ body {
 
 .everyday-categories-container h2 {
     font-size: 28px;
-    margin: 0 40px 10px 40px;
+    margin: 20px 40px 10px 40px;
     font-size: 30px;
 }
 
 .everyday-categories-container p {
-    margin: 0 40px 10px 40px;
+    margin: 0 40px 20px 40px;
     font-size: 18px;
     color: rgb(0, 0, 0)
 }
@@ -115,6 +115,7 @@ body {
 .category-labels span {
     font-size: 20px;
     color: rgb(0, 0, 0);
+    margin-bottom: 20px;
 }
 
 /* EVERYDAY CATEGORIES ENDS */
@@ -129,7 +130,7 @@ body {
     margin: 10px 0;
 }
 .healthy-recipes-container h2 {
-    margin: 0 90px;
+    margin: 20px 90px;
     font-size: 30px;
 }
 
@@ -162,5 +163,7 @@ body {
     padding: 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    margin-bottom: 20px;
 }
 /* HEALTHY RECIPES OF THE WEEK ENDS */
+/*WHERE TO EAT SECTION*/
