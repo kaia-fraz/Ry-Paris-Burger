@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
@@ -133,7 +134,7 @@ body {
     max-width: 1200px;
     align-items: center; 
     width: 100%; 
-    margin: 30px;
+    padding: 30px;
     } 
 .hlthy-r-container h2 { 
     font-size: 45px; 
@@ -145,8 +146,10 @@ body {
     } 
 /* images */
 .hlthy-r-images { 
-    display: flex; 
+    display: flex;
+    flex: 1; 
     justify-content: space-between;
+    flex-wrap: wrap;
 } 
 .hlthy-r-images img { 
     width: 280px; 
@@ -168,4 +171,6 @@ body {
 
 
 /* HEALTHY RECIPES OF THE WEEK ENDS */
+
+
 /*WHERE TO EAT SECTION*/
