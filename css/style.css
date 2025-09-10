@@ -224,3 +224,39 @@ body {
     padding: 10px 0;
     margin-bottom: 20px;
 }
+
+/*footer starts*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+.footbar {
+    display: flex;   
+    gap: 20px;    
+    margin: 0;
+    padding: 0;
+}
+.footbar li {
+    list-style: none;
+}
+
+.footbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.footbar a:hover {
+    color: white;
+}
