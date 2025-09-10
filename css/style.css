@@ -171,6 +171,56 @@ body {
 
 
 /* HEALTHY RECIPES OF THE WEEK ENDS */
-
-
 /*WHERE TO EAT SECTION*/
+.wte-cont { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+.wte-inner {
+    max-width: 1200px;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wte-inner h2 {
+    font-size: 45px;
+    padding: 10px;
+}
+
+.wte-inner p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+}
+
+.wte-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.wte-images img {
+    flex: 1;
+    width: 360px;
+    height:360px;
+    object-fit: cover;
+    border-radius: 5px;
+
+    border: 10px solid rgb(99, 99, 99);
+} 
+.wte-images span{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
