@@ -89,13 +89,14 @@ body {
 
 .everyday-categories-container h2 {
     font-size: 45px;
-    margin: 50px 55px 0 55px;
+    padding: 10px;
 }
 
 .everyday-categories-container p {
     font-size: 20px;
     color: rgb(0, 0, 0);
-    margin: 50px;
+    text-align: left;
+    padding: 10px;
 }
 
 .labels-images {
@@ -107,7 +108,7 @@ body {
 
 .labels-images img {
     flex: 1;
-    width: 350px;
+    width: 380px;
     height:350px;
     object-fit: cover;
     border-radius: 5px;
@@ -121,58 +122,50 @@ body {
     margin-bottom: 20px;
 }
 /* EVERYDAY CATEGORIES ENDS */
-/* HEALTHY RECIPES OF THE WEEK */
+/* HEALTHY RECIPES OF THE WEEK */ 
+.hlthy-r-container { display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+    background-color: rgb(111, 133, 150); 
+} 
+.hlthy-r-inner { 
+    max-width: 1200px;
+    align-items: center; 
+    width: 100%; 
+    margin: 30px;
+    } 
+.hlthy-r-container h2 { 
+    font-size: 45px; 
+    text-align: left; 
+    }
+.hlthy-r-container p { 
+    font-size: 20px; 
+    color: rgb(0, 0, 0); 
+    } 
+/* images */
+.hlthy-r-images { 
+    display: flex; 
+    justify-content: space-between;
+} 
+.hlthy-r-images img { 
+    width: 280px; 
+    height:280px; 
+    object-fit: cover; 
+    border-top-right-radius: 5px; 
+    border-top-left-radius: 5px; 
+} 
+.hlthy-r-images span { 
+    display: flex; 
+    justify-content: center; 
+    padding: 10px 0 10px 0; 
+    font-size: 20px; 
+    background-color: rgb(255, 253, 253); 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    margin-bottom: 20px; 
+}
 
-.hlthy-r-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: rgb(139, 161, 178);
-    padding: 20px 0;
-}
-.hlthy-r-inner{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-}
 
-.hlthy-r-title {
-    font-size: 45px;
-    margin: 50px 55px 0 55px;
-}
-
-.hlthy-r-description {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    margin: 50px;
-}
-
-.hlthy-r-images{
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-    margin: 10px 0;
-}
-
-.hlthy-r-images img {
-    display: flex;
-    width: 300px;
-    object-fit: cover;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.hlthy-r-images span {
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    background-color: rgb(255, 253, 253);
-    padding: 10px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin-bottom: 20px;
-}
 /* HEALTHY RECIPES OF THE WEEK ENDS */
 /*WHERE TO EAT SECTION*/
