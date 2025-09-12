@@ -384,13 +384,58 @@ body {
 /* time section ends*/
 /*type of recipe section starts*/
 
-.bengal-burger h1[
-
-]
-
-.star-btn {
-
+.bengal-burger{
+    margin: 0; 
+    text-align: center;
 }
+.rvw-cont {
+    display: flex;
+    justify-content: center;
+}
+.bengal-burger h1{
+    font-size: 50px;
+}
+.star-btn {
+border: none;
+background-color: white;
+color: rgb(85, 0, 0);
+font-size: 25px;
+cursor: pointer;
+}
+.reviews {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.saving {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.save-btn {
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(85, 0, 0);
+    color: white;
+    border: none;
+    border-radius: ;
+}
+.printer {
+   width: 50px;
+   height: 50px;
+   border: 4px solid rgb(104, 104, 104);
+   border-radius: 50%;
+   overflow: hidden;
+   background-color: white;
+   cursor: pointer;
+}
+
+.printer img {
+    width: 100%;
+    display: block;
+}
+
 
 
 
