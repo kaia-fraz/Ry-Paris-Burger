@@ -335,16 +335,21 @@ body {
 }
 /* HEADER ENDS */
 /* hero section starts*/
-
-.herorcp-img-container {
-    position: relative;
-    padding-top: 3px;
-    height : 700px;
-    overflow: hidden;
+.hero-bg {
+  background-image: url("../images/burger-hero.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: clamp(300px, 55vh, 700px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .herorcp-img {
     width: 100%;
+    height: auto;
 }
 .herorcp-text {
     position: absolute;
@@ -363,6 +368,7 @@ body {
 .rcp-time {
     background-color: rgb(111, 133, 150);
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
