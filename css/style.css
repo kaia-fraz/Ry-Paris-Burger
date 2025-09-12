@@ -361,7 +361,7 @@ body {
 }
 /* hero-section ends */
 .rcp-time {
-    background-color: rgb(164, 173, 181);
+    background-color: rgb(111, 133, 150);
     display: flex;
     align-items: center;
     width: 100%;
@@ -419,7 +419,7 @@ cursor: pointer;
     background-color: rgb(85, 0, 0);
     color: white;
     border: none;
-    border-radius: ;
+    border-radius: 40px;
 }
 .printer {
    width: 50px;
@@ -435,6 +435,47 @@ cursor: pointer;
     width: 100%;
     display: block;
 }
+
+.quote {
+    font-size: 20px;
+    background-color: rgb(185, 185, 200);
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    color: rgb(80, 80, 80);
+}
+
+.ingr-dir {
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+.ingr-dir h2{
+    font-size: 35px;
+}
+.ingr-dir li{
+    font-size: 25px;
+}
+.ingredient-cont {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+
+
+.directions {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.directions span{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+}
+
 
 
 
