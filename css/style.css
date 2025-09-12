@@ -484,6 +484,17 @@ flex-wrap: wrap;
     padding: 5px;
 }
 
+.vid-cont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.vid-cont iframe{
+    width: 450px;
+    height: 350px;
+    border-color: black;
+}
+
 
 
 
