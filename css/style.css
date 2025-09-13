@@ -478,11 +478,13 @@ flex-wrap: wrap;
     max-width: 600px;
 }
 
-.directions span{
+.no-numb{
     font-weight: bold;
     font-size: 30px;
     padding: 5px;
+    list-style-type: none;
 }
+
 
 .vid-cont {
     display: flex;
